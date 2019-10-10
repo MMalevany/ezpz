@@ -5,7 +5,6 @@
 int main(int argc, char const *argv[])
 {
 	float a,b,c,z,x,y,s;
-	float e=2.71828;
 
 	/*
 	x=-4.5;
@@ -17,7 +16,7 @@ int main(int argc, char const *argv[])
 
 	a=pow((9+pow((x-y),2)),1.0/3);
 	b=pow(x,2)+pow(y,2)+2;
-	c=pow(e,fabs(x-y))*pow(tan(z),3);
+	c=pow(exp(1),fabs(x-y))*pow(tan(z),3);
 
 	s=a/b-c;
 
