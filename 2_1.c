@@ -1,17 +1,20 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
 
-int r,a;
+float a,r,tmp;
 
-int main(int argc, char *argv[]) {
-	
+int main(int argc, char const *argv[])
+{
 	printf("R=");
-	scanf("%d", &r);
+	scanf("%f", &r);
 	printf("A=");
-	scanf("%d", &a);
+	scanf("%f", &a);
 	
-	if(a<=r*2) printf("YES\n");
-	else printf("NOPE\n");
+	tmp=a*sqrt(2);
+	
+	if(r*2>=tmp) printf("YES");
+	else printf("NO");
 	
 	return 0;
 }
