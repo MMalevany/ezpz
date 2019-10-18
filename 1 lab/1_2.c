@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
 	float a,b,c,z,x,y,s;
 
 	/*
-	x=-4.5;
+	x= -4.5;
 	y=0.75*pow(10,-4);
 	z=-0.845*pow(10,2);
 	*/

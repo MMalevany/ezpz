@@ -15,6 +15,7 @@ int main(int argc, char const *argv[])
 	
 	if(r>=tmp/2) printf("YES");
 	else printf("NOPE");
+//	
 	
 	return 0;
 }
