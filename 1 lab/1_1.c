@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int x; /// декларирую единственную переменную
+int x; /// декларирую единственную переменную.
 
 int main(int argc, char const *argv[])
 {
