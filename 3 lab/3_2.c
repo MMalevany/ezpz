@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
                 //printf("%d",temp);
                 //printf(" ");
                 //printf("%d",save);
-                //printf("\n");
+                // printf("\n");
                 for(gg=1; gg<=save; gg++) {if(save%gg==0) ans++;}
                 if(ans==2) 
                 {
